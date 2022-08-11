@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.categories {
+    list-style: none;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.expand {
+    height: 50%;
+    width: 80px;
+}
