@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Shopping List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -10,40 +14,47 @@
         <h1>Shopping list</h1>
         <ul class="categories">
             <li class="category" id="meat">
-                <span>Meat & Fish</span>
-                <button class="expand">+</button>
+                <span class="category-text">Meat & Fish</span>
+                <ul>
+                    <li><i class="fa-solid fa-arrows-maximize"></i></li>
+                    <li><i class="fa-solid fa-arrows-minimize"></i></li>
+                </ul>
             </li>
             <li class="category" id="dairy">
-                <span>Dairy</span>
-                <button class="expand">+</button>
+                <span class="category-text">Dairy</span>
+                <button class="category-expand">+</button>
             </li>
             <li class="category" id="dried-goods">
-                <span>Dried goods</span>
-                <button class="expand">+</button>
+                <span class="category-text">Dried goods</span>
+                <button class="category-expand">+</button>
             </li>
             <li class="category" id="veggies">
-                <span>Vegetables and fruit</span>
-                <button class="expand">+</button>
+                <span class="category-text">Vegetables and fruit</span>
+                <button class="category-expand">+</button>
             </li>
             <li class="category" id="bread">
-                <span>Bread & Bakery</span>
-                <button class="expand">+</button>
+                <span class="category-text">Bread & Bakery</span>
+                <button class="category-expand">+</button>
             </li>
-            <li class="category" id="cleaners"><span>Cleaners</span>
-                <button class="expand">+</button>
+            <li class="category" id="cleaners">
+                <span class="category-text">Cleaners</span>
+                <button class="category-expand">+</button>
             </li>
-            <li class="category" id="care"><span>Personal care</span>
-                <button class="expand">+</button>
+            <li class="category" id="care">
+                <span class="category-text">Personal care</span>
+                <button class="category-expand">+</button>
             </li>
-            <li class="category" id="beverages">Beverages
-                <button class="expand">+</button>
+            <li class="category" id="beverages">
+                <span class="category-text">Beverages</span>
+                <button class="category-expand">+</button>
             </li>
-            <li class="category" id="others">Others
-                <button class="expand">+</button>
+            <li class="category" id="others">
+                <span class="category-text">Others</span>
+                <button class="category-expand">+</button>
             </li>
         </ul>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="js/generate-lyrics.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
