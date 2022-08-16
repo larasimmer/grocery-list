@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Shopping List</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
@@ -15,42 +14,66 @@
         <ul class="categories">
             <li class="category" id="meat">
                 <span class="category-text">Meat & Fish</span>
-                <ul>
-                    <li><i class="fa-solid fa-arrows-maximize"></i></li>
-                    <li><i class="fa-solid fa-arrows-minimize"></i></li>
+                <ul class="buttons">
+                    <li><button class="category-expand">+</button></li>
+                    <li><button class="category-minimize">-</button></li>
                 </ul>
             </li>
             <li class="category" id="dairy">
                 <span class="category-text">Dairy</span>
-                <button class="category-expand">+</button>
+                <ul class="buttons">
+                    <li><button class="category-expand">+</button></li>
+                    <li><button class="category-minimize">-</button></li>
+                </ul>
             </li>
             <li class="category" id="dried-goods">
                 <span class="category-text">Dried goods</span>
-                <button class="category-expand">+</button>
+                <ul class="buttons">
+                    <li><button class="category-expand">+</button></li>
+                    <li><button class="category-minimize">-</button></li>
+                </ul>
             </li>
             <li class="category" id="veggies">
                 <span class="category-text">Vegetables and fruit</span>
-                <button class="category-expand">+</button>
+                <ul class="buttons">
+                    <li><button class="category-expand">+</button></li>
+                    <li><button class="category-minimize">-</button></li>
+                </ul>
             </li>
             <li class="category" id="bread">
                 <span class="category-text">Bread & Bakery</span>
-                <button class="category-expand">+</button>
+                <ul class="buttons">
+                    <li><button class="category-expand">+</button></li>
+                    <li><button class="category-minimize">-</button></li>
+                </ul>
             </li>
             <li class="category" id="cleaners">
                 <span class="category-text">Cleaners</span>
-                <button class="category-expand">+</button>
+                <ul class="buttons">
+                    <li><button class="category-expand">+</button></li>
+                    <li><button class="category-minimize">-</button></li>
+                </ul>
             </li>
             <li class="category" id="care">
                 <span class="category-text">Personal care</span>
-                <button class="category-expand">+</button>
+                <ul class="buttons">
+                    <li><button class="category-expand">+</button></li>
+                    <li><button class="category-minimize">-</button></li>
+                </ul>
             </li>
             <li class="category" id="beverages">
                 <span class="category-text">Beverages</span>
-                <button class="category-expand">+</button>
+                <ul class="buttons">
+                    <li><button class="category-expand">+</button></li>
+                    <li><button class="category-minimize">-</button></li>
+                </ul>
             </li>
             <li class="category" id="others">
                 <span class="category-text">Others</span>
-                <button class="category-expand">+</button>
+                <ul class="buttons">
+                    <li><button class="category-expand">+</button></li>
+                    <li><button class="category-minimize">-</button></li>
+                </ul>
             </li>
         </ul>
     </div>
