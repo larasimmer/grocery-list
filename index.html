@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Shopping List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
@@ -19,6 +20,23 @@
                     <li><button class="category-minimize">-</button></li>
                 </ul>
             </li>
+            <div class="add-items-container">
+                <div class="add-items">
+                    <ul class="items">
+                        <ul class="items-actions">
+                            <li class="checkbox"><input type="checkbox" id="check" value="bought"></li>
+                            <li class="added-item"></li>
+                            <li><i class="fa-solid fa-pen-to-square"></i></li>
+                            <li><i class="fa-solid fa-xmark"></i></li>
+                        </ul>
+                    </ul>
+                    <div>
+                        <input class="item-input" type="text" id="item">
+                        <button class="add-item">Add</button>
+                    </div>
+                </div>
+            </div>
+            
             <li class="category" id="dairy">
                 <span class="category-text">Dairy</span>
                 <ul class="buttons">

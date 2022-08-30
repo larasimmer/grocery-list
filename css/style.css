@@ -49,3 +49,25 @@ body {
 #meat, #dairy, #dried-goods, #veggies, #bread, #cleaners, #care, #beverages, #others {
     background-color: #72afe7;
 }
+
+.add-items-container {
+    display: none;
+}
+
+.add-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.items-actions {
+    display: flex;
+    list-style: none;
+}
+
+.items-actions > li:not(.added-item) {
+    padding: 0 20px 0 20px;
+}
+
+.items-actions > li:not(.checkbox) {
+    padding: 0 20px 0 20px;
+}
